@@ -11,4 +11,4 @@ The enviroment is visual studio 2022,equipped with opencv c++
 4_1  gauss filter  
 5_1  bilinear filter  
 6    harris corner detect  
-7    feature detect&match  (from here,the code is running based on python cv)
+7    feature detect&match  (from here,the code is running based on python opencv)
