@@ -14,8 +14,9 @@ The enviroment is visual studio 2022,equipped with opencv c++
 7    feature detect&match  (from here,the code is running based on python opencv)
 
 E8 compare SIFT and R2D2  
-  &emsp; notice that the code of r2d2 is from [code](http://github.com/naver/r2d2)  
-  &emsp; how to run the r2d2,is like：  
+  &emsp; Notice that the code of r2d2 is from [code](http://github.com/naver/r2d2)  
+  &emsp; How to run the r2d2,is like：  
     &emsp; ```python r2d2/extract.py --model r2d2/models/r2d2_WASF_N16.pt --images imgs/2.jpg --top-k 2056```  
-  &emsp; the eviroment reuqires( my env): python 3.6.8  pytorch 9.0  pillow  8.4.0  matplolib 2.2.2    (the pillow should install by pip,instead of default)  
-
+  &emsp; The eviroment reuqires( my env): python 3.6.8  pytorch 9.0  pillow  8.4.0  matplolib 2.2.2    (the pillow should install by pip,instead of default)  
+  &emsp;&emsp; chage_size.py is used to change the size of photos  
+  &emsp;&emsp; load_keypoints.py contains  the main funtion
