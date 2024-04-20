@@ -15,6 +15,6 @@ The enviroment is visual studio 2022,equipped with opencv c++
 
 E8 compare SIFT and R2D2
   notice that the code of r2d2 is from [code](http://github.com/naver.r2d2)
-  how to run the r2d2,is like：
-  ```python r2d2/extract.py --model r2d2/models/r2d2_WASF_N16.pt --images imgs/2.jpg --top-k 2056```
-  the eviroment reuqires( my env): python 3.6.8  pytorch 9.0  pillow  8.4.0  matplolib 2.2.2    (the pillow should install by pip,instead of default)
+  how to run the r2d2,is like：  
+  ```python r2d2/extract.py --model r2d2/models/r2d2_WASF_N16.pt --images imgs/2.jpg --top-k 2056```  
+  the eviroment reuqires( my env): python 3.6.8  pytorch 9.0  pillow  8.4.0  matplolib 2.2.2    (the pillow should install by pip,instead of default)  
