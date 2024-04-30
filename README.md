@@ -1,5 +1,6 @@
 # computer-vision  
-CV class experiment, when learning at Shandong University   
+CV class experiment, when learning at Shandong University  
+山东大学  AI CV  实验   
 
 ## Before run code       
 The enviroment is visual studio 2022,equipped with opencv c++     
@@ -23,4 +24,8 @@ E8 compare SIFT and R2D2
   &emsp; &emsp; ```python r2d2/extract.py --model r2d2/models/r2d2_WASF_N16.pt --images imgs/2.jpg --top-k 2056```  
   &emsp; The eviroment reuqires( my env): python 3.6.8  pytorch 9.0  pillow  8.4.0  matplolib 2.2.2    (the pillow should install by pip,instead of default)  
   &emsp;&emsp; chage_size.py is used to change the size of photos  
-  &emsp;&emsp; load_keypoints.py contains  the main funtion
+  &emsp;&emsp; load_keypoints.py contains  the main funtion   
+
+E9 图像拼接  
+   &emsp;通过透视变化，拼接图像  
+   
